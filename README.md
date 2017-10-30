@@ -22,9 +22,10 @@
 
 # TODO
 
-[ ] - Decide which key is Left FN - Win or LAlt
-[ ] - Add another FN for left hand
-[ ] - Make L-FN + {IJKL} as arrows
+[x] - Decide which key is Left FN - Win or LAlt
+[x] - Add another FN for left hand
+[x] - Make L-FN + {IJKL} as arrows
+[x] - Make R-FN + {WASD} for mouse movement
 [ ] - Figure out how to pause the underglow LEDs
 [ ] - Add underglow prev and next patterns
 [ ] - Add color controls {hue|saturation|brightness}
