@@ -23,8 +23,8 @@
 # TODO
 
 [x] - Decide which key is Left FN - Win or LAlt
-[ ] - Make space as FN on hold
-[ ] - Make the right FN as control key
+[x] - Make space as FN on hold
+[x] - Make the right FN as control key
 [x] - Make L-FN + {IJKL} as arrows
 [x] - Make R-FN + {WASD} for mouse movement
 [ ] - Figure out how to pause the underglow LEDs
