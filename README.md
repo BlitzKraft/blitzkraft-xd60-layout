@@ -21,7 +21,7 @@
 .----------------------------------------------------------------.
 | `   |F1 |F2 |F3 |F4 |F5 |F6 |F7 |F8 |F9 |F10|F11|F12| \ | Del  |
 |----------------------------------------------------------------+
-| Tab  |LC |MU |RC | * | T | Y | U | ↑ | O | P | [ | ] |    \    |  Left Click, Mouse Up, Right Click, * programming mode/RESET 
+| Esc  |LC |MU |RC | * | T | Y | U | ↑ | O | P | [ | ] |    \    |  Left Click, Mouse Up, Right Click, * programming mode/RESET 
 |----------------------------------------------------------------+
 |  BlAdj |ML |MD |MR | F | G | H | ← | ↓ | → | ; | ' |   Enter   |  Backlight adjust; Mouse Left, Mouse Down, Mouse Right - Mouse movements, Arrow keys
 |----------------------------------------------------------------+

@@ -7,7 +7,6 @@
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 40
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-
  
 /* 0: Base Layer
  * .----------------------------------------------------------------.
@@ -33,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * .----------------------------------------------------------------.
  * | `   |F1 |F2 |F3 |F4 |F5 |F6 |F7 |F8 |F9 |F10|F11|F12| \ | Del  |
  * |----------------------------------------------------------------+
- * | Tab  |LC |MU |RC | * | T | Y | U | ↑ | O | P | [ | ] |    \    |  Left Click, Mouse Up, Right Click, * programming mode/RESET 
+ * |  Esc |LC |MU |RC | * | T | Y | U | ↑ | O | P | [ | ] |    \    |  Left Click, Mouse Up, Right Click, * programming mode/RESET 
  * |----------------------------------------------------------------+
  * |  BlAdj |ML |MD |MR | F | G | ← | ↑ | ↓ | → | ; | ' |   Enter   |  Backlight adjust; Mouse Left, Mouse Down, Mouse Right - Mouse movements, Arrow keys
  * |----------------------------------------------------------------+
@@ -44,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
   LAYOUT_all(
       KC_GRV,   KC_F1,   KC_F2,   KC_F3,   KC_F4,  KC_F5,  KC_F6,  KC_F7,  KC_F8,  KC_F9,   KC_F10,  KC_F11,   KC_F12,  KC_DEL,   KC_F14,    \
-      KC_NO,   KC_MS_BTN1, KC_MS_UP,   KC_MS_BTN2, RESET,KC_NO,KC_CALC,KC_NO,  KC_NO, KC_NO,   KC_PSCR, KC_SLCK,  KC_PAUS,           KC_NO,    \
+      KC_ESC,   KC_MS_BTN1, KC_MS_UP,   KC_MS_BTN2, RESET,KC_NO,KC_CALC,KC_NO,  KC_NO, KC_NO,   KC_PSCR, KC_SLCK,  KC_PAUS,           KC_NO,    \
       BL_STEP,   KC_MS_LEFT, KC_MS_DOWN, KC_MS_RIGHT,KC_DEL, KC_END, KC_LEFT, KC_DOWN,  KC_UP,  KC_RIGHT,   KC_HOME, KC_PGUP,  KC_NO,             KC_ENT,    \
       KC_LSFT, KC_NO,   KC_NO,   RGB_TOG,  RGB_MOD,KC_NO,  KC_NO,  KC_VOLD,KC_VOLU,KC_MUTE, KC_END,  KC_PGDN,  KC_RSFT, KC_PGUP,  KC_MS_BTN2,      \
       KC_LCTL, F(0), KC_LALT,                          KC_TRNS,                          KC_RGUI, F(0),     KC_HOME, KC_PGDOWN,KC_END),
@@ -82,3 +81,4 @@ uint32_t layer_state_set_user(uint32_t state) {
 	return state;
 }
 
+/* vim: set nowrap:  */
